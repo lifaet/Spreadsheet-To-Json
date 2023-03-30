@@ -1,0 +1,13 @@
+{
+  "name": "opensheet",
+  "main": "index.js",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler publish",
+    "add-env-variables": "wrangler secret put GOOGLE_API_KEY"
+  },
+  "author": "Ben Borgers <benborgers@hey.com>",
+  "dependencies": {
+    "@cloudflare/wrangler": "^1.19.7"
+  }
+}
